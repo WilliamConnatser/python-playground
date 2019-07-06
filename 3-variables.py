@@ -1,17 +1,9 @@
-num_of_cats_normal = 2
+reassigned = "Variables"
+reassigned = "Variables can be reassigned"
+total_message = reassigned + " and used as a value while declaring new variables"
+print(total_message)
 
-num_of_cats_crazy_cat_lady = num_of_cats_normal * 1000
-
-print("Normal amount of cats:")
-print(num_of_cats_normal)
-
-print("Crazy cat lady amount of cats:")
-print(num_of_cats_crazy_cat_lady)
-
-print("Amount of cats I have:")
-print(num_of_cats_normal * 0)
-
-_valid_variable_name = "underscores and letters to start"
+_valid_variable_name = "variables must start with an underscore or a letter"
 valid_variable_name2 = "numbers are cool, but not for the start of the variable name"
 
 print(_valid_variable_name)
