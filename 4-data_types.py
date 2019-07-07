@@ -15,4 +15,4 @@ print(f"[1,2,3] = {type([1,2,3])}")
 dictt = {"key": "value"}
 print(f"{{\"key\": \"value\"}} = {type(dictt)}")
 
-print(f"None = {type(None)}")
+print(f"None = {type(None)} (Python's version of null)")
