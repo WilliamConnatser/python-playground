@@ -16,3 +16,7 @@ dictt = {"key": "value"}
 print(f"{{\"key\": \"value\"}} = {type(dictt)}")
 
 print(f"None = {type(None)} (Python's version of null)")
+
+print("You can convert data types using the applicable functions IE. float() str() int() etc")
+print("f strings abstract away the conversion of non-string data types into strings implicitly")
+print("But you can also do it manually when reassigning variables or in logic like this: str(1) = " + str(1))

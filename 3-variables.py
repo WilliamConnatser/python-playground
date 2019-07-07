@@ -19,3 +19,6 @@ print("Constants are uppercase")
 print("Camel case is used for classes")
 print("Double underscore are supposed to be private or left alone")
 print("Python is dynamically typed language.. variables can change types!!")
+
+print("Stay away from reserved key words for variables. It will work, but it reassigns them to variable's value, and if you try to access the reserved function later it will break.")
+print("IE. don't use print int float bool input round etc")
